@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+body {
+  background: url("/backgroundLadybug.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Lobster", cursive, sans-serif;
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  
+  margin: 0;
+}
+
+.map-container {
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.hidden-audio {
+  display: none;
+}
+
+
+.invitacion {
+  text-align: center;
+  background: rgba(255, 0, 0, 0.8);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  margin: 20px auto;
+  border: 5px solid black;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: black;
+  color: white;
+  border: 2px solid yellow;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: yellow;
+  color: black;
+}
+
+.banner, .footer {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.confirmado {
+  font-size: 18px;
+  color: yellow;
+  font-weight: bold;
+}
+
+.countdown {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+.countdown-timer {
+  font-size: 30px;
+  font-weight: bold;
+  background: #ff1744;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
