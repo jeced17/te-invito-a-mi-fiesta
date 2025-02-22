@@ -7,4 +7,5 @@ export default defineConfig({
   build: {
     outDir: 'dist', // Carpeta de salida para los archivos construidos
   },
+  base: '/te-invito-a-mi-fiesta/',
 })
